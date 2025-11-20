@@ -1,0 +1,125 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13e5487577a324bec8e1e97cb1208b45, type: 3}
+  m_Name: Demo_Preset_Top_Level
+  m_EditorClassIdentifier: 
+  roofTiles: []
+  floorTiles:
+  - prefab: {fileID: 8882883675912095528, guid: ad57a30edf352405092cbb1b60da09b5, type: 3}
+    positionOffset: {x: -0.5, y: 0, z: 0.5}
+    rotationOffset: {x: 0, y: 0, z: 0}
+    weight: 0
+    alignToSurface: 0
+    tileLayer:
+      serializedVersion: 2
+      m_Bits: 0
+    isExpanded: 1
+    allowDecor: 1
+    randomRotation: 3
+  wallTiles:
+  - prefab: {fileID: 4276313094110067368, guid: e8c1b39d59e154cdf9ef0333b7893cbe, type: 3}
+    positionOffset: {x: -0.5, y: 0, z: 0}
+    rotationOffset: {x: 0, y: 0, z: 0}
+    weight: 10
+    alignToSurface: 0
+    tileLayer:
+      serializedVersion: 2
+      m_Bits: 0
+    isExpanded: 1
+    allowDecor: 1
+  - prefab: {fileID: 8965622437202433100, guid: 8df7d2f7d13f6403f934344115f2a986, type: 3}
+    positionOffset: {x: -0.5, y: 0, z: 0}
+    rotationOffset: {x: 0, y: 0, z: 0}
+    weight: 10
+    alignToSurface: 0
+    tileLayer:
+      serializedVersion: 2
+      m_Bits: 0
+    isExpanded: 1
+    allowDecor: 1
+  wallCorners: []
+  windowTiles:
+  - prefab: {fileID: 5383809516569400002, guid: 0479fc2ed1c4742e0b979ab2943ba0b2, type: 3}
+    positionOffset: {x: -0.5, y: 0, z: 0.1}
+    rotationOffset: {x: 0, y: 0, z: 0}
+    weight: 0
+    alignToSurface: 0
+    tileLayer:
+      serializedVersion: 2
+      m_Bits: 0
+    isExpanded: 0
+    allowDecor: 0
+  doorTiles:
+  - prefab: {fileID: 6533784680512033595, guid: 71ec29972051d4370ac7fa10449f7786, type: 3}
+    positionOffset: {x: -0.5, y: 0, z: 0}
+    rotationOffset: {x: 0, y: 0, z: 0}
+    weight: 0
+    alignToSurface: 0
+    tileLayer:
+      serializedVersion: 2
+      m_Bits: 0
+    isExpanded: 1
+    allowDecor: 0
+  - prefab: {fileID: 6269170632556849295, guid: 9f00395305953420b82f900c13f9f529, type: 3}
+    positionOffset: {x: -0.5, y: 0, z: 0}
+    rotationOffset: {x: 0, y: 0, z: 0}
+    weight: 0
+    alignToSurface: 0
+    tileLayer:
+      serializedVersion: 2
+      m_Bits: 0
+    isExpanded: 1
+    allowDecor: 0
+  characters: []
+  roofDecorations:
+  - prefab: {fileID: 919132149155446097, guid: 5aa58c43386c34cf095097f18db3e04d, type: 3}
+    positionOffset: {x: 0, y: -1, z: 0}
+    rotationOffset: {x: 0, y: 0, z: 0}
+    spacing: 0
+    safeArea: 0
+    verticalRange: {x: 0, y: 100}
+    amountRange: {x: 5000, y: 5001}
+    randomRotation: 0
+    scaleRange: {x: 1, y: 1}
+    isExpanded: 1
+  wallDecorations:
+  - prefab: {fileID: 9138154093601693610, guid: 69736b7619c4f464085b215ef1e36d1b, type: 3}
+    positionOffset: {x: 0, y: 0, z: 0.53}
+    rotationOffset: {x: 0, y: 0, z: 0}
+    spacing: 0
+    safeArea: 0
+    verticalRange: {x: 1, y: 1}
+    amountRange: {x: 0, y: 0}
+    randomRotation: 0
+    scaleRange: {x: 1, y: 1}
+    isExpanded: 0
+  floorDecorations:
+  - prefab: {fileID: 6450054733448612024, guid: 46b0499d117f74e37bd39ab239302dba, type: 3}
+    positionOffset: {x: 0, y: 0, z: 0}
+    rotationOffset: {x: 0, y: 0, z: 0}
+    spacing: 1.14
+    safeArea: 0
+    verticalRange: {x: 0, y: 100}
+    amountRange: {x: 5, y: 10}
+    randomRotation: 360
+    scaleRange: {x: 0.2, y: 0.5}
+    isExpanded: 1
+  - prefab: {fileID: 7861030683610625028, guid: 72888c0752ac9469a90b80a11bfc271d, type: 3}
+    positionOffset: {x: 0, y: 0, z: 0}
+    rotationOffset: {x: 0, y: 0, z: 0}
+    spacing: 1.14
+    safeArea: 0
+    verticalRange: {x: 0, y: 100}
+    amountRange: {x: 5, y: 10}
+    randomRotation: 0
+    scaleRange: {x: 0.2, y: 0.5}
+    isExpanded: 1

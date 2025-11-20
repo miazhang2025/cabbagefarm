@@ -866,7 +866,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d1d2c5b04e70f4cd28892725f963c8f9, type: 3}
   m_Name: PainterlyVolumeComponent
   m_EditorClassIdentifier: 
-  active: 1
+  active: 0
   painterlySmoothness:
     m_OverrideState: 1
     m_Value: 0.1
