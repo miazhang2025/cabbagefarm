@@ -12,7 +12,7 @@ public class WhisperSpeechRecognition : MonoBehaviour
     [SerializeField] private TextMeshProUGUI displayText;
     [SerializeField] private Button startButton;
     [SerializeField] private Button stopButton;
-    [SerializeField] private ModelImporter modelImporter;
+    [SerializeField] private ModelImporterAI modelImporter;
 
     private AudioClip recordedClip;
     private bool isRecording = false;

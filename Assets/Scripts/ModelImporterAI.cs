@@ -9,7 +9,7 @@ using Newtonsoft.Json;
 using TMPro;
 using UnityEngine.UI;
 
-public class ModelImporter : MonoBehaviour
+public class ModelImporterAI : MonoBehaviour
 {
     public TextMeshProUGUI statusText;
     public string folderPath = "Assets/MeshyModels/Speech";
